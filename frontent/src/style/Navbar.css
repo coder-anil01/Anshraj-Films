@@ -1,0 +1,53 @@
+.navbar{
+    padding: 1% 8%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    box-shadow: 0 1px 12px #424242;;
+    z-index: 1000;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+    width: 80px;
+}
+
+.navbar-items a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FOOTER */
+.footer{
+    margin-top: 5%;
+    background-image: url('https://res.cloudinary.com/coderanil/image/upload/v1732113084/footer-bg1_gkd2eb.jpg'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire footer */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    padding: 20px;
+    color: white;
+}
+.footer_container{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-gap: 20px;
+}
+.footer_logo{
+    width: 200px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+}
+.footer-items a{
+    text-decoration: none;
+    color: white;
+}
